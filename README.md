@@ -10,7 +10,7 @@
 
 **I find business problems and build AI solutions to fix them.**
 
-That's it. I don't just analyze data or write code—I do the whole loop: spot the problem, architect the solution, deploy it, measure the impact.
+That's it. I don't just analyze data or write code, I do the whole loop: spot the problem, architect the solution, deploy it, measure the impact.
 
 Currently pursuing MS in Information Systems at Northeastern University. Seeking Data Engineering, AI/ML, or BI co-op roles starting January 2026.
 
@@ -54,7 +54,7 @@ Built real-time deep learning system analyzing brain signals to predict driver a
 ---
 
 ### 🏥 Healthcare Analytics & ML Pipeline
-Automated healthcare analytics pipeline for medical coding and patient classification—achieved 30% efficiency improvement in claims processing.
+Automated healthcare analytics pipeline for medical coding and patient classification and achieved 30% efficiency improvement in claims processing.
 
 **Technical approach:** Built ICD-10 validation system and patient classification algorithms (27% accuracy boost) • Designed ETL pipelines with PySpark/SQL, cut execution time by 40% • Created Tableau dashboards for clinical operations tracking
 
@@ -72,7 +72,7 @@ Built ML system to identify high-risk hospital readmissions using 10K+ patient r
 ---
 
 ### 🔧 Computer Vision for Manufacturing Quality Control
-Created AI-powered defect detection system for automotive production—reduced failures by 15% and improved early detection by 22%.
+Created AI-powered defect detection system for automotive production and reduced failures by 15% and improved early detection by 22%.
 
 **Technical approach:** Developed CNN-based image classification pipeline for 50K+ inspection records • Optimized PySpark/Snowflake pipelines (35% faster execution) • Built interactive defect-tracking dashboards with Streamlit
 
