@@ -19,7 +19,7 @@ Currently pursuing MS in Information Systems at Northeastern University. Seeking
 - Developed deep learning system for driver safety (82% accuracy on EEG signals)
 - Automated healthcare analytics pipeline (30% efficiency gain, 27% accuracy improvement)
 
-📍 **Location:** Boston, MA
+📍 Boston, MA (Open to relocation) | F-1 CPT authorized (co-op eligible Jan 2026)
 
 ---
 
