@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=3F8FFF&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Anmol+Shetty;AI+Solutions+Analyst+%7C+Data+Engineer;I+Find+Business+Problems+and+Build+AI+to+Fix+Them" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=3F8FFF&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Anmol+Shetty;AI+Solutions+Analyst+%7C+Data+Analyst;I+Find+Business+Problems+and+Build+AI+to+Fix+Them" alt="Typing SVG" />
 </div>
 
 <h3 align="center">MS Information Systems @ Northeastern University (Dec 2026) | Seeking Co-op (Jan 2026)</h3>
