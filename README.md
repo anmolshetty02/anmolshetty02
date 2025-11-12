@@ -36,7 +36,7 @@ Currently pursuing MS in Information Systems at Northeastern University. Seeking
 ## 💼 Featured Projects
 
 ### 🤖 AI-Powered Business Intelligence Platform
-Built AI-driven analytics platform for $10M+ manufacturing operation—cut executive reporting from 4 hours to 30 minutes and uncovered $1.5M profit variance.
+Built AI-driven analytics platform for $17M+ manufacturing operation—cut executive reporting from 4 hours to 30 minutes and uncovered $1.5M profit variance.
 
 **Technical approach:** Migrated 500K+ records (90+ tables) from legacy MS Access to DuckDB • Built natural language SQL interface using LangChain & Llama 3 (85% accuracy) • Deployed with Streamlit for real-time dashboards
 
