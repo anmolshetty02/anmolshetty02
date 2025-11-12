@@ -1,88 +1,88 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=3F8FFF&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Anmol+Shetty;Production+BI+Analyst+%7C+Data+Engineer;Building+Intelligent+Business+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=3F8FFF&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Anmol+Shetty;AI+Solutions+Analyst+%7C+Data+Engineer;I+Find+Business+Problems+and+Build+AI+to+Fix+Them" alt="Typing SVG" />
 </div>
 
-<h3 align="center">MS Information Systems @ Northeastern University | Seeking Data Engineering Co-op (Jan 2026)</h3>
+<h3 align="center">MS Information Systems @ Northeastern University (Dec 2026) | Seeking Co-op (Jan 2026)</h3>
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm a data engineer passionate about turning complex data into actionable business intelligence. Currently pursuing my Master's in Information Systems at Northeastern University, I specialize in building end-to-end BI platforms that drive real business decisions.
+**I find business problems and build AI solutions to fix them.**
 
-- 🔭 Recently built a comprehensive BI platform processing 15+ years of legacy data across 90+ tables
-- 🌱 Exploring advanced ML ops and real-time data pipelines
-- 💼 Open to Data Engineering, Analytics, and BI roles starting January 2026
-- 📍 Based in Boston, MA
+That's it. I don't just analyze data or write code—I do the whole loop: spot the problem, architect the solution, deploy it, measure the impact.
+
+Currently pursuing MS in Information Systems at Northeastern University. Seeking Data Engineering, AI/ML, or BI co-op roles starting January 2026.
+
+**Recent wins:**
+- Built AI-powered BI platform that cut executive reporting time from 4 hours to 30 minutes
+- Developed deep learning system for driver safety (82% accuracy on EEG signals)
+- Automated healthcare analytics pipeline (30% efficiency gain, 27% accuracy improvement)
+
+📍 **Location:** Boston, MA
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages & Databases
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+**AI/ML:** Python • TensorFlow • PyTorch • LangChain • scikit-learn • LLMs • Computer Vision • Deep Learning
 
-### Cloud & Data Tools
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+**Data Engineering:** SQL • Snowflake • AWS (S3, Glue, Redshift) • Apache Spark • DuckDB • ETL Pipelines
 
-### Frameworks & Libraries
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+**Analytics & Viz:** Tableau • Power BI • Streamlit • Pandas • NumPy • Matplotlib
 
 ---
 
 ## 💼 Featured Projects
 
-### 🏭 Production BI Analytics Platform
-**Natural Language to SQL Business Intelligence System**
+### 🤖 AI-Powered Business Intelligence Platform
+Built AI-driven analytics platform for $10M+ manufacturing operation—cut executive reporting from 4 hours to 30 minutes and uncovered $1.5M profit variance.
 
-Built an end-to-end BI platform processing 15+ years of operational data for a ₹100Cr+ manufacturing operation:
-- 🔄 Migrated legacy MS Access database (90+ tables) to modern Python/DuckDB stack
-- 🤖 Implemented AI-powered natural language SQL interface using LangChain & Llama 3
-- 📊 Created interactive dashboards with Streamlit for real-time business insights
-- ⚡ Achieved 40% improvement in query performance through optimized data models
+**Technical approach:** Migrated 500K+ records (90+ tables) from legacy MS Access to DuckDB • Built natural language SQL interface using LangChain & Llama 3 (85% accuracy) • Deployed with Streamlit for real-time dashboards
 
-**Tech:** Python • DuckDB • Streamlit • LangChain • Ollama • SQL
+**Stack:** Python • DuckDB • LangChain • Ollama • Streamlit • SQL
 
 ---
 
-### 🏥 Healthcare Analytics Pipeline
-**ICD-10 Code Validation & Patient Classification System**
+### 🧠 EEG-Based Driver Drowsiness Detection
+Built real-time deep learning system analyzing brain signals to predict driver alertness and prevent accidents.
 
-Developed automated healthcare analytics pipeline improving operational efficiency:
-- ✅ Built validation system for ICD-10 medical coding accuracy
-- 🔍 Implemented patient classification algorithms for risk stratification
-- 📈 Achieved 30% efficiency improvement in claims processing
-- 🔧 Designed ETL pipelines for multi-source healthcare data integration
+**Technical approach:** Collected & preprocessed 10K+ EEG samples with noise filtering and feature extraction • Developed LSTM neural network achieving 82% drowsiness classification accuracy • Implemented time-series windowing for continuous monitoring
 
-**Tech:** Python • Snowflake • SQL • AWS • ETL Pipelines
+**Stack:** Python • TensorFlow • LSTM • Signal Processing • Time-Series Analysis
 
 ---
 
-### 🔧 Manufacturing Quality Control ML
-**Predictive Quality Analytics for Automotive Production**
+### 🏥 Healthcare Analytics & ML Pipeline
+Automated healthcare analytics pipeline for medical coding and patient classification—achieved 30% efficiency improvement in claims processing.
 
-Created ML-powered quality control system for automotive manufacturing:
-- 🎯 Developed predictive models for defect detection
-- 📊 Built real-time monitoring dashboards for production metrics
-- ⚙️ Integrated quality data across multiple production lines
-- 📈 Delivered measurable improvements in quality control processes
+**Technical approach:** Built ICD-10 validation system and patient classification algorithms (27% accuracy boost) • Designed ETL pipelines with PySpark/SQL, cut execution time by 40% • Created Tableau dashboards for clinical operations tracking
 
-**Tech:** Python • Machine Learning • Tableau • SQL
+**Stack:** Python • PySpark • Snowflake • AWS • Tableau • SQL
 
 ---
 
-## 📊 GitHub Stats
+### 🏥 Patient Readmission Risk Prediction
+Built ML system to identify high-risk hospital readmissions using 10K+ patient records from MIMIC-III dataset.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anmolshetty02&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anmolshetty02&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170"/>
-</div>
+**Technical approach:** Developed logistic regression & decision tree models (78% accuracy) • Identified key risk factors: prior admissions, comorbidities, discharge timing • Built Tableau dashboards showing trends by diagnosis & demographics
+
+**Stack:** Python • scikit-learn • Pandas • Tableau • Statistical Modeling
+
+---
+
+### 🔧 Computer Vision for Manufacturing Quality Control
+Created AI-powered defect detection system for automotive production—reduced failures by 15% and improved early detection by 22%.
+
+**Technical approach:** Developed CNN-based image classification pipeline for 50K+ inspection records • Optimized PySpark/Snowflake pipelines (35% faster execution) • Built interactive defect-tracking dashboards with Streamlit
+
+**Stack:** Python • TensorFlow • CNNs • PySpark • Snowflake • Computer Vision
+
+---
+
+## 📂 Featured Work
+
+Check out my pinned repositories below ⬇️ for production-ready projects with full documentation.
 
 ---
 
@@ -92,6 +92,7 @@ Created ML-powered quality control system for automotive manufacturing:
   
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anmol-shetty-5b9195171/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shetty.anm@northeastern.edu)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anmolshetty02)
 
 </div>
 
