@@ -1,96 +1,95 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=3F8FFF&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Anmol+Shetty;AI+Solutions+Analyst+%7C+Data+Analyst;I+Find+Business+Problems+and+Build+AI+to+Fix+Them" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=3F8FFF&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Anmol+Shetty;AI+Solutions+%7C+Forward-Deployed+%7C+AI+Product;I+Find+What+People+Need+and+Build+AI+to+Fix+It" alt="Typing SVG" />
 </div>
 
-<h3 align="center">MS Information Systems @ Northeastern University (Dec 2026) | Seeking Co-op (Jan 2026)</h3>
+<h3 align="center">MS Information Systems @ Northeastern University (Dec 2026) | Open to roles starting Jan 2027</h3>
 
 ---
 
 ## 👨‍💻 About Me
 
-**I find business problems and build AI solutions to fix them.**
+**I find what people actually need and build AI to fix it.**
 
-That's it. I don't just analyze data or write code, I do the whole loop: spot the problem, architect the solution, deploy it, measure the impact.
+That's the loop I like: sit with the people who have the problem, check the data before designing, prototype with AI, test it live, and hand it off cleanly.
 
-Currently pursuing MS in Information Systems at Northeastern University. Seeking Data Engineering, AI/ML, or BI co-op roles starting January 2026.
+- 🧠 **Most recently:** AI Engineer Intern at Founderway.ai (Jan–Jul 2026), owning four workstreams on an AI advisor for early-stage founders
+- 🏭 **Before that:** two years at Metcut, a carbide cutting-tool manufacturer in India, starting as a business analyst and moving into AI
+- 🎯 **Looking for:** forward-deployed, AI solutions, and AI product roles starting January 2027
 
-**Recent wins:**
-- Built AI-powered BI platform that cut executive reporting time from 4 hours to 30 minutes
-- Developed deep learning system for driver safety (82% accuracy on EEG signals)
-- Automated healthcare analytics pipeline (30% efficiency gain, 27% accuracy improvement)
-
-📍 Boston, MA (Open to relocation) | F-1 CPT authorized (co-op eligible Jan 2026)
+📍 Boston, MA (Open to relocation)
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ How I Work
 
-**AI/ML:** Python • TensorFlow • PyTorch • LangChain • scikit-learn • LLMs • Computer Vision • Deep Learning
+1. **Check the data before designing.** Audit first, architecture second.
+2. **Write the constraints down first,** so every later change of direction stays cheap.
+3. **Build with an AI coding assistant as a pair programmer.** The framing, trade-offs, and verification are mine.
+4. **Test live.** Every failure becomes a permanent test.
+5. **Hand off cleanly,** so someone can continue from the files alone.
 
-**Data Engineering:** SQL • Snowflake • AWS (S3, Glue, Redshift) • Apache Spark • DuckDB • ETL Pipelines
+---
 
-**Analytics & Viz:** Tableau • Power BI • Streamlit • Pandas • NumPy • Matplotlib
+## 🧰 Tech Stack
+
+**AI:** LLMs • RAG • Prompt Engineering • LangChain • LangGraph • Pinecone • Azure OpenAI • Ollama • Document Processing & OCR (Apache Tika, Tesseract)
+
+**Backend & Platforms:** Python • Java (Spring Boot) • Next.js • FastAPI • REST APIs • Azure • Azure DevOps • Docker • Git
+
+**Data & Analytics:** SQL • PostgreSQL • DuckDB • ETL Pipelines • Streamlit • scikit-learn • SciPy
 
 ---
 
 ## 💼 Featured Projects
 
-### 🤖 AI-Powered Business Intelligence Platform
-Built AI-driven analytics platform for $17M+ manufacturing operation and help cut executive reporting from 4 hours to 30 minutes and uncovered $1.5M profit variance.
+### 🧠 AceChat: AI Advisor for Founders · Founderway.ai (2026)
+Owned four workstreams on an AI advisor for early-stage founders, from problem framing to merged code.
 
-**Technical approach:** Migrated 500K+ records (90+ tables) from legacy MS Access to DuckDB • Built natural language SQL interface using LangChain & Llama 3 (85% accuracy) • Deployed with Streamlit for real-time dashboards
+**Technical approach:** Audited usage data before designing, then built scored retrieval (fuzzy matching, topic tags, recency, source trust) behind a relevance gate, with zero new infrastructure • Shipped word-by-word streaming (SSE) across three AI surfaces; a single-owner design fixed three bugs • Replaced a shutting-down document vendor in one week with in-house extraction and OCR: 1 AI call instead of N+1, $0 vendor cost • Turned live-test failures into 42 regression tests
+
+**Stack:** Java Spring Boot • Next.js • Azure OpenAI • Apache Tika • Tesseract OCR • Docker
+
+*Private codebase. Case study coming soon.*
+
+---
+
+### 🏭 [AI-Powered BI Platform](https://github.com/anmolshetty02/production-bi-platform) · Metcut
+Helped a manufacturer move reporting off a legacy MS Access system, cutting executive reporting from 4+ hours to under 30 minutes.
+
+**Technical approach:** Automated ETL from MS Access into an analytics warehouse • Plain-English SQL tool (LangChain + Llama 3 via Ollama) so non-technical staff could pull their own numbers • Streamlit dashboards for sales, customers, P&L, and delivery
 
 **Stack:** Python • DuckDB • LangChain • Ollama • Streamlit • SQL
 
 ---
 
-### 🧠 EEG-Based Driver Drowsiness Detection
-Built real-time deep learning system analyzing brain signals to predict driver alertness and prevent accidents.
+### 🧪 [EEG Driver Drowsiness Detection](https://github.com/anmolshetty02/eeg-driver-fatigue-detection)
+Real-time drowsiness detection from a single EEG channel.
 
-**Technical approach:** Collected & preprocessed 10K+ EEG samples with noise filtering and feature extraction • Developed LSTM neural network achieving 82% drowsiness classification accuracy • Implemented time-series windowing for continuous monitoring
+**Technical approach:** 0.5–45 Hz band-pass and 60 Hz notch filtering • 2-second windows with theta/alpha ratio, spectral entropy, and Hjorth features • Random Forest validated leave-one-subject-out: 85.3% accuracy (AUC 0.86) on unseen drivers • Sliding-window inference under 10 ms; temporal smoothing cut false alarms 40% • An earlier experiment trained an LSTM on consumer-headset data (~82%)
 
-**Stack:** Python • TensorFlow • LSTM • Signal Processing • Time-Series Analysis
-
----
-
-### 🏥 Healthcare Analytics & ML Pipeline
-Automated healthcare analytics pipeline for medical coding and patient classification and achieved 30% efficiency improvement in claims processing.
-
-**Technical approach:** Built ICD-10 validation system and patient classification algorithms (27% accuracy boost) • Designed ETL pipelines with PySpark/SQL, cut execution time by 40% • Created Tableau dashboards for clinical operations tracking
-
-**Stack:** Python • PySpark • Snowflake • AWS • Tableau • SQL
+**Stack:** Python • scikit-learn • SciPy • Streamlit
 
 ---
 
-### 🏥 Patient Readmission Risk Prediction
-Built ML system to identify high-risk hospital readmissions using 10K+ patient records from MIMIC-III dataset.
+### ⚖️ [AI Compliance Assistant](https://github.com/tanmayi123/ai-compliance-assistant) *(co-built)*
+Multi-agent assistant answering compliance questions across HIPAA, GDPR, the EU AI Act, FINRA, and CCPA.
 
-**Technical approach:** Developed logistic regression & decision tree models (78% accuracy) • Identified key risk factors: prior admissions, comorbidities, discharge timing • Built Tableau dashboards showing trends by diagnosis & demographics
+**Technical approach:** LangGraph supervisor routes each question to a specialist agent • Pinecone retrieval with citations on every answer • Strict, lenient, and synthesizer agents debate ambiguous cases • Streamlit app with Plotly visuals and PDF export
 
-**Stack:** Python • scikit-learn • Pandas • Tableau • Statistical Modeling
-
----
-
-### 🔧 Computer Vision for Manufacturing Quality Control
-Created AI-powered defect detection system for automotive production and reduced failures by 15% and improved early detection by 22%.
-
-**Technical approach:** Developed CNN-based image classification pipeline for 50K+ inspection records • Optimized PySpark/Snowflake pipelines (35% faster execution) • Built interactive defect-tracking dashboards with Streamlit
-
-**Stack:** Python • TensorFlow • CNNs • PySpark • Snowflake • Computer Vision
+**Stack:** Python • LangChain • LangGraph • Pinecone • Streamlit
 
 ---
 
-## 📂 Featured Work
-
-Check out my pinned repositories below ⬇️ for production-ready projects with full documentation.
+### 🔨 Currently Building
+**HomeStretch:** an AI copilot that supports caregivers after a patient comes home from the hospital (Building AI Applications, Northeastern, team of 3).
 
 ---
 
 ## 📫 Let's Connect
 
 <div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anmol-shetty-5b9195171/)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anmolshetty26/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shetty.anm@northeastern.edu)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anmolshetty02)
 
